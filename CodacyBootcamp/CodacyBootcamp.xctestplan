@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "CBF28A1C-5097-499F-8A9F-D41848B59F3B",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:CodacyBootcamp.xcodeproj",
+        "identifier" : "ED33E36B2D819726007CE900",
+        "name" : "CodacyBootcampTests"
+      }
+    }
+  ],
+  "version" : 1
+}

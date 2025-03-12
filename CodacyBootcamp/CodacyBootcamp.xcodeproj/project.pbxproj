@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		ED33E36D2D819726007CE900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED33E34E2D819723007CE900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED33E3552D819723007CE900;
+			remoteInfo = CodacyBootcamp;
+		};
+		ED33E3772D819726007CE900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED33E34E2D819723007CE900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED33E3552D819723007CE900;
+			remoteInfo = CodacyBootcamp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED33E3562D819723007CE900 /* CodacyBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodacyBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED33E36C2D819726007CE900 /* CodacyBootcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodacyBootcampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED33E3762D819726007CE900 /* CodacyBootcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodacyBootcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5B63D42D8198F400F06208 /* CodacyBootcamp.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CodacyBootcamp.xctestplan; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ED33E37E2D819726007CE900 /* Exceptions for "CodacyBootcamp" folder in "CodacyBootcamp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = ED33E3552D819723007CE900 /* CodacyBootcamp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ED33E3582D819723007CE900 /* CodacyBootcamp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				ED33E37E2D819726007CE900 /* Exceptions for "CodacyBootcamp" folder in "CodacyBootcamp" target */,
+			);
+			path = CodacyBootcamp;
+			sourceTree = "<group>";
+		};
+		ED33E36F2D819726007CE900 /* CodacyBootcampTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CodacyBootcampTests;
+			sourceTree = "<group>";
+		};
+		ED33E3792D819726007CE900 /* CodacyBootcampUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CodacyBootcampUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED33E3532D819723007CE900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED33E3692D819726007CE900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED33E3732D819726007CE900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED33E34D2D819723007CE900 = {
+			isa = PBXGroup;
+			children = (
+				ED5B63D42D8198F400F06208 /* CodacyBootcamp.xctestplan */,
+				ED33E3582D819723007CE900 /* CodacyBootcamp */,
+				ED33E36F2D819726007CE900 /* CodacyBootcampTests */,
+				ED33E3792D819726007CE900 /* CodacyBootcampUITests */,
+				ED33E3572D819723007CE900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED33E3572D819723007CE900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED33E3562D819723007CE900 /* CodacyBootcamp.app */,
+				ED33E36C2D819726007CE900 /* CodacyBootcampTests.xctest */,
+				ED33E3762D819726007CE900 /* CodacyBootcampUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED33E3552D819723007CE900 /* CodacyBootcamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED33E37F2D819726007CE900 /* Build configuration list for PBXNativeTarget "CodacyBootcamp" */;
+			buildPhases = (
+				ED33E3522D819723007CE900 /* Sources */,
+				ED33E3532D819723007CE900 /* Frameworks */,
+				ED33E3542D819723007CE900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ED33E3582D819723007CE900 /* CodacyBootcamp */,
+			);
+			name = CodacyBootcamp;
+			packageProductDependencies = (
+			);
+			productName = CodacyBootcamp;
+			productReference = ED33E3562D819723007CE900 /* CodacyBootcamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED33E36B2D819726007CE900 /* CodacyBootcampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED33E3842D819726007CE900 /* Build configuration list for PBXNativeTarget "CodacyBootcampTests" */;
+			buildPhases = (
+				ED33E3682D819726007CE900 /* Sources */,
+				ED33E3692D819726007CE900 /* Frameworks */,
+				ED33E36A2D819726007CE900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED33E36E2D819726007CE900 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ED33E36F2D819726007CE900 /* CodacyBootcampTests */,
+			);
+			name = CodacyBootcampTests;
+			packageProductDependencies = (
+			);
+			productName = CodacyBootcampTests;
+			productReference = ED33E36C2D819726007CE900 /* CodacyBootcampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED33E3752D819726007CE900 /* CodacyBootcampUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED33E3872D819726007CE900 /* Build configuration list for PBXNativeTarget "CodacyBootcampUITests" */;
+			buildPhases = (
+				ED33E3722D819726007CE900 /* Sources */,
+				ED33E3732D819726007CE900 /* Frameworks */,
+				ED33E3742D819726007CE900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED33E3782D819726007CE900 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ED33E3792D819726007CE900 /* CodacyBootcampUITests */,
+			);
+			name = CodacyBootcampUITests;
+			packageProductDependencies = (
+			);
+			productName = CodacyBootcampUITests;
+			productReference = ED33E3762D819726007CE900 /* CodacyBootcampUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED33E34E2D819723007CE900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					ED33E3552D819723007CE900 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					ED33E36B2D819726007CE900 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ED33E3552D819723007CE900;
+					};
+					ED33E3752D819726007CE900 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ED33E3552D819723007CE900;
+					};
+				};
+			};
+			buildConfigurationList = ED33E3512D819723007CE900 /* Build configuration list for PBXProject "CodacyBootcamp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED33E34D2D819723007CE900;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ED33E3572D819723007CE900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED33E3552D819723007CE900 /* CodacyBootcamp */,
+				ED33E36B2D819726007CE900 /* CodacyBootcampTests */,
+				ED33E3752D819726007CE900 /* CodacyBootcampUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED33E3542D819723007CE900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED33E36A2D819726007CE900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED33E3742D819726007CE900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED33E3522D819723007CE900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED33E3682D819726007CE900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED33E3722D819726007CE900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED33E36E2D819726007CE900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED33E3552D819723007CE900 /* CodacyBootcamp */;
+			targetProxy = ED33E36D2D819726007CE900 /* PBXContainerItemProxy */;
+		};
+		ED33E3782D819726007CE900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED33E3552D819723007CE900 /* CodacyBootcamp */;
+			targetProxy = ED33E3772D819726007CE900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED33E3802D819726007CE900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8YR43228J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CodacyBootcamp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saish.CodacyBootcamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED33E3812D819726007CE900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8YR43228J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CodacyBootcamp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saish.CodacyBootcamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED33E3822D819726007CE900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED33E3832D819726007CE900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED33E3852D819726007CE900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8YR43228J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saish.CodacyBootcampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodacyBootcamp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodacyBootcamp";
+			};
+			name = Debug;
+		};
+		ED33E3862D819726007CE900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8YR43228J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saish.CodacyBootcampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodacyBootcamp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodacyBootcamp";
+			};
+			name = Release;
+		};
+		ED33E3882D819726007CE900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8YR43228J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saish.CodacyBootcampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodacyBootcamp;
+			};
+			name = Debug;
+		};
+		ED33E3892D819726007CE900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8YR43228J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saish.CodacyBootcampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodacyBootcamp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED33E3512D819723007CE900 /* Build configuration list for PBXProject "CodacyBootcamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED33E3822D819726007CE900 /* Debug */,
+				ED33E3832D819726007CE900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED33E37F2D819726007CE900 /* Build configuration list for PBXNativeTarget "CodacyBootcamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED33E3802D819726007CE900 /* Debug */,
+				ED33E3812D819726007CE900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED33E3842D819726007CE900 /* Build configuration list for PBXNativeTarget "CodacyBootcampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED33E3852D819726007CE900 /* Debug */,
+				ED33E3862D819726007CE900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED33E3872D819726007CE900 /* Build configuration list for PBXNativeTarget "CodacyBootcampUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED33E3882D819726007CE900 /* Debug */,
+				ED33E3892D819726007CE900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED33E34E2D819723007CE900 /* Project object */;
+}
