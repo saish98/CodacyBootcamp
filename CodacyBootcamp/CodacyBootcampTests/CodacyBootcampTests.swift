@@ -11,12 +11,15 @@ import XCTest
 final class CodacyBootcampTests: XCTestCase {
     
     func testPerson() {
-        let nameInit = Person(firstName: "Grace", lastName: "Njoroge", age: 10, email: "saish@heady.io")
-        XCTAssertNotNil(nameInit)
-        XCTAssertEqual(nameInit.firstName, "Grace")
-        XCTAssertEqual(nameInit.lastName, "Njoroge")
-        XCTAssertEqual(nameInit.fullName, "Grace Njoroge")
-        XCTAssertTrue(nameInit.isKid)
+        let person1 = Person(firstName: "Grace", lastName: "Njoroge", age: 10, email: "saish@heady.io")
+        XCTAssertNotNil(person1)
+        XCTAssertEqual(person1.firstName, "Grace")
+        XCTAssertEqual(person1.lastName, "Njoroge")
+        XCTAssertEqual(person1.fullName, "Grace Njoroge")
+        XCTAssertTrue(person1.isKid)
+        
+        let person2 = Person(firstName: "Jhon", lastName: "Njoroge", age: 18, email: "jhon@heady.io")
+        XCTAssertGreaterThan(person2.age, person1.age)
     }
     
     override func setUpWithError() throws {
